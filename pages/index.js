@@ -14,9 +14,9 @@ export default function Home() {
           <section className="home__content">
             <div className="home__intro">
               <h2>
-                Depressão? Você não está sozinho
+                Ansiedade? Depressão? Você não está sozinho (a).
               </h2>
-              <h3>Pode contar com ajuda!</h3>
+              <h3>Pode contar com a gente!</h3>
             </div>
             <div className="home__bigImage">
               <Image
@@ -30,21 +30,22 @@ export default function Home() {
           <section className="home-talkValuntier">
             <ButtonTalk />
             <div className="home-message">
-              <h2>Amigos Anónimos</h2>
+              <h2>Bionic Friends</h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
-                quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit 
-                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
-                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore 
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
-                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea 
-                commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate 
-                velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat 
-                quo voluptas nulla pariatur?
+                A Bionic Friends é uma rede de pessoas dispostas a ouvir e acolher outras pessoas que precisam falar.
+                Ouvidos que não julgam, acolhem.
+              </p>
+              <p>
+                Essa é uma ideia de Joaquim Borges, que mora em São Paulo com sua esposa, Rose Borges.
+                Rose tem transtorno de ansiedade e faz tratamento com psicólogo e psiquiatra,
+                mas mesmo assim o acolhimento em casa faz-se necessário. Através da experiência e dedicação com a sua
+                esposa, Joaquim percebeu o quanto ter alguém disposto a ouvir faz a diferença no tratamento
+                da ansiedade e depressão. Foi então, que ele decidiu criar a Bionic friends, um espaço para pessoas
+                que precisam de um ouvido atento.
+              </p>
+              <p>
+                A Bionic Friends não substitui o seu tratamento com um especialista.
+                Aqui você encontrará pessoas para te ouvir.
               </p>
             </div>
           </section>

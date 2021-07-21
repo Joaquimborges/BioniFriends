@@ -13,7 +13,7 @@ const SnackBar = ({ type, status }) => {
             {
                 type === "Warning" && (
                     <div className={`snackbar snackbar--warning${status ? ' snackbar--show' : ''}`}>
-                        <h2>Whatsapp existente, por favor cadastre outro.</h2>
+                        <h2> Este Whatsapp já existe, por favor cadastre outro.</h2>
                     </div>
                 )
             }

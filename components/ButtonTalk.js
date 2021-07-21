@@ -21,7 +21,7 @@ const ButtonTalk = () => {
 
     }
     const goToWhatsapp = (whatsapp, name) => {
-        const msg = `Olá ${name}, tudo bem? Encontrei o seu número através do bionicfriends.com, poderia por gentileza me ajudar?`;
+        const msg = `Olá, ${name}! tudo bem? Encontrei o seu número através do bionicfriends.com, podes me ajudar? por gentileza!`;
 
         let url = 'https://api.whatsapp.com/send?phone=' + whatsapp + '&text=' + encodeURIComponent(msg);
         
